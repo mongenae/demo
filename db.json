@@ -1,8 +1,37 @@
 {
   "posts": [
-    { "id": 11, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    <?xml version=”1.0″ encoding=”utf-8″ standalone=”yes”?> 
+<entry xml:base=”http://SERVER:81/Orchestrator2012/Orchestrator.svc/” xmlns:d=”http://schemas.microsoft.com/ado/2007/08/dataservices” xmlns:m=”http://schemas.microsoft.com/ado/2007/08/dataservices/metadata” m:etag=”W/&quot;datetime’2012-02-20T02%3A48%3A55.98’&quot;” xmlns=”http://www.w3.org/2005/Atom”> 
+<id>http://SERVER:81/Orchestrator2012/Orchestrator.svc/Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)</id> 
+<title type=”text”></title> 
+<published>2012-02-20T02:48:55-08:00</published> 
+<updated>2012-02-20T02:48:55-08:00</updated> 
+<author> 
+<name /> 
+</author> 
+<link rel=”edit” title=”Job” href=”Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)” /> 
+<link rel=”http://schemas.microsoft.com/ado/2007/08/dataservices/related/Runbook” type=”application/atom+xml;type=entry” title=”Runbook” href=”Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)/Runbook” /> 
+<link rel=”http://schemas.microsoft.com/ado/2007/08/dataservices/related/Instances” type=”application/atom+xml;type=feed” title=”Instances” href=”Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)/Instances” /> 
+<link rel=”http://schemas.microsoft.com/ado/2007/08/dataservices/related/RunbookServer” type=”application/atom+xml;type=entry” title=”RunbookServer” href=”Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)/RunbookServer” /> 
+<link rel=”http://schemas.microsoft.com/ado/2007/08/dataservices/related/Statistics” type=”application/atom+xml;type=feed” title=”Statistics” href=”Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)/Statistics” /> 
+<category term=”Microsoft.SystemCenter.Orchestrator.WebService.Job” scheme=”http://schemas.microsoft.com/ado/2007/08/dataservices/scheme” /> 
+<content type=”application/xml”> 
+<m:properties> 
+<d:Id m:type=”Edm.Guid”>42fe8a86-bdea-47c9-aecb-845fdba8f8ca</d:Id> 
+<d:RunbookId m:type=”Edm.Guid”>0336c79b-ca82-449e-ad55-aefa9fb47fad</d:RunbookId> 
+<d:Parameters>&lt;Data&gt;&lt;Parameter&gt;&lt;ID&gt;{60a8fa04-6293-4767-b842-46cba5790553}&lt;/ID&gt;&lt;Value&gt;World&lt;/Value&gt;&lt;/Parameter&gt;&lt;Parameter&gt;&lt;ID&gt;{c24d1cc5-deba-4bb5-b02e-44caf0fb296c}&lt;/ID&gt;&lt;Value&gt;Hello&lt;/Value&gt;&lt;/Parameter&gt;&lt;/Data&gt;</d:Parameters> 
+<d:RunbookServers m:null=”true” /> 
+<d:RunbookServerId m:type=”Edm.Guid” m:null=”true” /> 
+<d:ParentId m:type=”Edm.Guid” m:null=”true” /> 
+<d:ParentIsWaiting m:type=”Edm.Boolean”>false</d:ParentIsWaiting> 
+<d:Status>Pending</d:Status> 
+<d:CreatedBy>S-1-5-21-3461259963-3254288209-657424328-1106</d:CreatedBy> 
+<d:CreationTime m:type=”Edm.DateTime”>2012-02-20T02:48:55.98</d:CreationTime> 
+<d:LastModifiedBy>S-1-5-21-3461259963-3254288209-657424328-1106</d:LastModifiedBy> 
+<d:LastModifiedTime m:type=”Edm.DateTime”>2012-02-20T02:48:55.98</d:LastModifiedTime> 
+</m:properties> 
+</content> 
+</entry>
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
