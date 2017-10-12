@@ -1,6 +1,6 @@
 {
   "posts": [
-    {"id": "http://SERVER:81/Orchestrator2012/Orchestrator.svc/Jobs(guid’42fe8a86-bdea-47c9-aecb-845fdba8f8ca’)"}
+    {"id": "42fe8a86-bdea-47c9-aecb-845fdba8f8ca"}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
